@@ -1,0 +1,87 @@
+body {
+  margin: 0px;
+}
+.div-menu {
+  position: sticky;
+  top: 0;
+  background-color: purple;
+  display: inline-block;
+  width: 90%;
+  padding-top: 4.5px;
+  padding-bottom: 4.5px;
+}
+.text {
+  position: absolute;
+  top: 30%;
+  left: 13%;
+  color: #fefcef;
+}
+.img-byal {
+  border-radius: 80px;
+  padding-top: 2px;
+  padding-left: 5px;
+}
+.lable-menu {
+  position: sticky;
+  top: 0;
+  padding-top: 7px;
+  padding-bottom: 4px;
+  float: right;
+  background-color: gray;
+}
+li .a{
+  padding: 15%;
+  text-decoration: none;
+  display: block;
+  border-radius: 5px;
+  color: white;
+  width: 100%;
+  margin: 7px;
+  background-color: purple;
+}
+#menu-switch {
+  display: none;
+}
+#menu-switch:checked ~ ul {
+  visibility: visible;
+}
+img {
+  width: 35px;
+}
+ul {
+  margin-top: 0;
+  position: absolute;
+  right: 9%;
+  top: 7.5%;
+  list-style: none;
+  visibility: hidden;
+}
+h1 {
+  text-align: center;
+}
+.img-man {
+  align-items: center;
+  width: 100%;
+}
+p {
+  color: #696969;
+}
+.div-content {
+  margin: 7%;
+}
+.button-settings {
+  text-align: center;
+  margin-top: 10%;
+  margin-bottom: 15%;
+  width: 100%;
+}
+.potfolio-button {
+  background: purple;
+  color: white;
+  border-style: none;
+  border-radius: 5px;
+  padding: 2.5%;
+  font-size: ;
+  font-weight: 700;
+  text-decoration: none;
+}
