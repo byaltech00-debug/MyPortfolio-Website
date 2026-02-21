@@ -55,18 +55,25 @@ img {
 h1 {
   text-align: center;
 }
-.img-settings {
-  display: inline-block;
+.image-settings {
+  justify-content: center;
+  margin-top: 5px;
+  display: flex;
+  gap: 20px;
+}
+p {
+  font-weight: bold;
+  font-size: 20px;
 }
 .text-settings {
-  float: right;
-  width: 60%;
-  padding-right: 4%;
+  margin-bottom: 1px;
+  width: 220px;
+  justify-content: justify-content;
 }
 .image {
-  width: 30%;
+  width: 100px;
+  padding-top: 20px;
   background-image: white;
-  padding-left: 4%;
 }
 .button {
   text-align: center;
@@ -86,5 +93,5 @@ h1 {
 }
 h2 {
   text-align: center;
-  margin-top: 15%;
+  margin-top: 10%;
 }
