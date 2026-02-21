@@ -39,6 +39,14 @@ li .a{
   margin: 7px;
   background-color: purple;
 }
+li {
+  position: sticky;
+  top: 55px;
+}
+.a {
+  position: sticky;
+  top: 0px;
+}
 #menu-switch {
   display: none;
 }
@@ -115,3 +123,4 @@ h2 {
   background: #f5f5f5;
   margin-top: 10%;
   }
+
